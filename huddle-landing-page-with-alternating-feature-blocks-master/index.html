@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="headerintro headerintro__bgimage">
+    <header class="header">
+      <img src="images/logo.svg" alt="Logo" class="header__logo">
+      <button class="btn btn__smallwhite font--bold font--small color--dark">Try It Free</button>
+    </header>
+
+    <section class="intro">
+      <div class="intro__text">
+        <h1 class="font--poppins font--semibold"> Build The Community Your Fans Will Love</h1>
+        <p class="font--opensans">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.</p>
+          <button class="btn btn__mediumpink font--poppins">Get Started For Free</button>
+      </div>
+      <div class="intro__image">
+        <img src="images/illustration-mockups.svg" alt="Screen">
+      </div>
+    </section>
+  </section>
+
+  <section class="main">
+    <div class="main__grow">
+      <div class="main__grow--text">
+        <h3 class="font--poppins font--semibold">Grow Together</h3>
+        <p class="font--opensans">Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+      <div class="main__grow--image tablethidden">
+        <img src="images/illustration-grow-together.svg" alt="Two people">
+      </div>
+    </div>
+    <div class="main__flow">
+      <div class="main__flow--image">
+        <img src="images/illustration-flowing-conversation.svg" alt="Group of people">
+      </div>
+      <div class="main__flow--text">
+        <h3 class="font--poppins font--semibold">Flowing Conversations</h3>
+        <p class="font--opensans">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.</p>
+      </div>
+    </div>
+    <div class="main__user">
+      <div class="main__user--text">
+        <h3 class="font--poppins font--semibold">Your Users</h3>
+        <p class="font--opensans">It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div class="main__user--image tablethidden">
+        <img src="images/illustration-your-users.svg" alt="Three people">
+      </div>
+    </div>
+
+  <div class="card">
+    <h2 class="font--poppins font--semibold">Ready To Build Your Community?</h2>
+    <button class="btn btn__largepink font--opensans font--bold">Get Started For Free</button>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="contact">
+      <img src="images/logo.svg" alt="Logo" class="footer__logo">
+      <div class="gridcontainer">
+          <img src="images/icon-location.svg" alt="Location pin" class="location__image">
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua</span>
+          <img src="images/icon-phone.svg" alt="Phone" class="photo__image">
+          <span>+1-543-123-4567</span>
+          <img src="images/icon-email.svg" alt="Email" class="email__image">
+          <span>example@huddle.com</span>
+        </div>
+      </div>
+    </div>
+    <ul class="navigation">
+      <li>About Us</li>
+      <li>What We Do</li>
+      <li>FAQ</li>
+      <li>Career</li>
+      <li>Blog</li>
+      <li>Contact Us</li>
+    </ul>
+    <div class="socialandcopyright">
+      <ul class="socialmedia">
+        <li><ion-icon name="logo-facebook"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+        <li><ion-icon name="logo-instagram"></ion-icon></li>
+      </ul>
+      <span>&copy; Copyright 2018 Huddle. All rights reserved.</span>
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
