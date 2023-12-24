@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/esthernickani/huddle/blob/master/images/Huddle%20landing%20page%20screenshot.png)
 
 ### Links
 - Live Site URL: [Add live site URL here](https://esthernickani.github.io/huddle/)
