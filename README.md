@@ -30,7 +30,7 @@ Users should be able to:
 ![](https://github.com/esthernickani/huddle/blob/master/images/Huddle%20landing%20page%20screenshot.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://esthernickani.github.io/huddle/)
+- Live Site URL:(https://esthernickani.github.io/huddle/)
 
 ## My process
 
@@ -39,14 +39,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- 
+  
 ### Continued development
 
 Focusing on using more frameworks like Bootstrap and react.
 
 ## Author
-- Twitter - [@yourusername](https://www.twitter.com/nick_esther)
-
-## Acknowledgments
-
-I worked with Paul Osinowo.
+- Twitter - [@nick_esther](https://www.twitter.com/nick_esther)
